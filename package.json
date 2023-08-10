@@ -1,17 +1,25 @@
 {
-  "name": "react-complete-guide",
+  "name": "crypto-hunter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
+    "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.3.3",
     "mdb-react-ui-kit": "^6.1.0",
     "react": "^18.0.0",
+    "react-alice-carousel": "^2.7.1",
     "react-bootstrap": "^2.7.4",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.0.0",
+    "react-html-parser": "^2.0.2",
     "react-router-dom": "^6.11.2",
     "react-scripts": "^5.0.1",
     "web-vitals": "^0.2.4"
@@ -39,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-html-parser": "^2.0.2"
   }
 }
